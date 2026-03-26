@@ -3,7 +3,7 @@ load_dotenv()
 
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from documentLoader.load_document import docs
+from load_document import docs
 
 template = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful assistant. summarize the following document in one line."),
