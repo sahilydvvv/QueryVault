@@ -16,3 +16,11 @@ vector_store = Chroma(
 
 docs = splitter
 vector_store.add_documents(docs)
+
+
+similar_docs = vector_store.similarity_search("your question", k=2)
+
+# print(similar_docs)
+for doc in similar_docs:
+    print(doc.page_content)
+    print("\n---\n")
