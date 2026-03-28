@@ -9,4 +9,4 @@ splitter = text_splitter.split_documents(docs)
 
 # for i in splitter:
 #     print(i.page_content)
-#     print("\n\n")
+#     print("\n---\n")
