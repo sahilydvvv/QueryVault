@@ -1,0 +1,15 @@
+# === API KEYS CONFIGURATION ===
+# Rename this file or copy its contents to a `.env` file in the root directory.
+# Replace the placeholder values with your actual API keys.
+
+# Your Groq API Key (used for generation with LLaMA models)
+# Get yours here: https://console.groq.com/keys
+GROQ_API_KEY=your_groq_api_key_here
+
+# Your Google API Key (used for Google Generative AI Embeddings)
+# Get yours here: https://aistudio.google.com/app/apikey
+GOOGLE_API_KEY=your_google_api_key_here
+
+# === TERMINAL USAGE ===
+# Use the interactive script to perform Q&A with your indexed documents.
+# Command: `python backend/llm_invoke.py`
